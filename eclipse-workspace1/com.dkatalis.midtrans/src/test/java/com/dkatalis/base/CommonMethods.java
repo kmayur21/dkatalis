@@ -113,6 +113,13 @@ public class CommonMethods {
 		
 	}
 	
+	public void moveToElementAndClick(final WebElement  element)
+	{
+		final Actions action=new Actions(driver);
+		action.moveToElement(element).click(element);
+		action.perform();
+	}
+	
 	public void deleteAllVisibleCookies() 
 	{
 		driver.manage().deleteAllCookies();

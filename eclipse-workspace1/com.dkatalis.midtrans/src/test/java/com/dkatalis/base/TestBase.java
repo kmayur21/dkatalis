@@ -76,7 +76,7 @@ public class TestBase {
 				e.printStackTrace();
 			}
 		
-			if(config.getProperty("browser").equals("chrome"))
+			if(config.getProperty("TEST.CONFIG.BROWSER").equals("chrome"))
 			{
 				System.setProperty("webdriver.chrome.silentOutput", "true");
 				
