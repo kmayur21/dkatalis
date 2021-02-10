@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1002" started-at="2021-02-10T13:25:32Z" finished-at="2021-02-10T13:25:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1002" started-at="2021-02-10T13:25:32Z" finished-at="2021-02-10T13:25:33Z">
+      <class name="com.dkatalis.tests.SuccessfulPaymentTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dkatalis.tests.SuccessfulPaymentTest@5db250b4]" name="setUp" is-config="true" duration-ms="13991" started-at="2021-02-10T13:25:18Z" finished-at="2021-02-10T13:25:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initializeObjects()[pri:0, instance:com.dkatalis.tests.SuccessfulPaymentTest@5db250b4]" name="initializeObjects" is-config="true" duration-ms="97" started-at="2021-02-10T13:25:32Z" finished-at="2021-02-10T13:25:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeObjects -->
+        <test-method status="PASS" signature="beforTest()[pri:0, instance:com.dkatalis.tests.SuccessfulPaymentTest@5db250b4]" name="beforTest" is-config="true" duration-ms="1" started-at="2021-02-10T13:25:32Z" finished-at="2021-02-10T13:25:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforTest -->
+        <test-method status="PASS" signature="checkSuccessfulPaymentTest()[pri:0, instance:com.dkatalis.tests.SuccessfulPaymentTest@5db250b4]" name="checkSuccessfulPaymentTest" duration-ms="861" started-at="2021-02-10T13:25:32Z" finished-at="2021-02-10T13:25:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuccessfulPaymentTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dkatalis.tests.SuccessfulPaymentTest@5db250b4]" name="tearDown" is-config="true" duration-ms="872" started-at="2021-02-10T13:25:33Z" finished-at="2021-02-10T13:25:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dkatalis.tests.SuccessfulPaymentTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
